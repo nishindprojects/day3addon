@@ -1,0 +1,16 @@
+public class Laptop {
+    String name;
+    int Ram;
+    Laptop(String name,int Ram) {
+        this.name=name;
+        this.Ram=Ram;
+    }
+    void display() {
+        System.out.println("Laptop Details:"+" "+name+" "+Ram+" ");
+    }
+    public static void main(String[] args) {
+        Laptop in=new Laptop("HP",12);
+        in.display();
+        
+    }
+}
